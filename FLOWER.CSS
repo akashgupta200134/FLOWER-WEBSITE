@@ -1,0 +1,174 @@
+ .root {
+  --pink: #e84393;
+} 
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+  outline: none;
+  border: none;
+}
+html {
+  font-size:63%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow: hidden;
+}
+ section{
+  padding: 2rem 9%;
+  margin-top:100px;
+} 
+header {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  color: #fff;
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.1);
+}
+
+.logo {
+  padding-left: 3px;
+  font-size: 2.5rem;
+  font-family: cursive;
+  font-weight: bolder;
+  color: #333;
+}
+span {
+  color: rgb(255, 184, 196);
+}
+
+header .navbar a {
+  color: #363636;
+  font-size: 1.4rem;
+  padding: 0 1.55rem;
+  position: relative;
+  left: 60px;
+  top: 0px;
+}
+
+header .icons a {
+  color: #363636;
+  font-size: 1.4rem;
+  padding: 0 1.5rem;
+  margin-left: 1rem;
+  padding: 0 1.5rem;
+  margin-left: 1rem;
+  position:relative;
+  left: 78px;
+  top: 0px;
+}
+
+.navbar a:hover {
+  color: #fa73b4;
+}
+
+.icons a:hover {
+  color: #fa73b4;
+}
+.hpara {
+  font-size: 4.2rem;
+  color: #363636;
+  margin-top:100px;
+  padding-left:2.8rem;
+  font-family:cursive;
+  font-weight: 700;
+
+}
+.para {
+  font-size: 1.5rem;
+  color: #363636;
+  margin-top: 0px;
+  padding-left:2.8rem;
+}
+.pinkcontent {
+  font-size: 1.8rem;
+  color: #363636;
+  padding-left:2.8rem;
+}
+.bold{
+  color:	#8965d1;
+}
+ 
+.pinkcontent:hover{
+  color:#7a7ae5;
+}
+
+.btn{
+  margin:2.8rem;
+  font-size:18px;
+  font-family:cursive;
+  color: #605f5f;
+  position: relative;
+  top: 20px;
+
+}
+
+.btn:hover{
+  color: rgb(249, 177, 212);
+}
+.homeimg{
+background:url(/images/homeimage.jpg.jpg);
+margin-top:76px;
+min-height:100vh;
+background-size: cover;
+}
+
+.btn{
+  margin-top:1rem;
+  border-radius:5rem;
+  background-color: #333;
+  color: #fff;
+  padding:0.7rem;
+
+}
+.pinkcontent{
+
+  font-size: 1.8rem;
+    color: #363636;
+    padding-left:0rem;
+    margin-left: 2.6rem;
+  }
+  header.navbar{
+    
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background: #fff;
+    border: .1rem solid black;
+    display: block;
+  }
+@media (max-width:991px) {
+  html {
+    font-size:55%;
+   }
+
+  header{
+    padding: 1.7rem;
+  }
+   
+}
+ @media(max-width:991px){
+  header .navbar{
+    position:relative;
+    left: 0px; right: 0px; top:0px;
+    background: #fff;
+    border-top: #333;
+}
+}
+
+
+
+
+
+
+
