@@ -1,81 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale= 1">
-    <title>Flowers</title>
-    <link rel="stylesheet" href="FLOWER.CSS">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-        </script>
-        
-    <body>
-        
-        <header> 
-          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-                  <a href="#" class="logo">FLOWER<span>.</span></a>
-            <nav class="navbar">
-            <a href="#Home" class="active">Home</a>
-            <a href="#Category">Category</a>
-            <a href="#About">About</a>
-            <a href="#Contact">Contact</a>
-            <a href="#Review">Review</a>
-        </nav>
-            <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-shopping-cart"></a>
-                <a href="#"  class="fas fa-user"></a>
-                </div>
-            </header>
-<div>
-            <section class="homeimg" id="home">
-<div>
-<div class="hpara">FRESH FLOWERS<span class="bold"> ORGANIC AND BEAUTIFUL</span></div>
-<div class="para">Flowers always make people better, happier,and more helpful;</div>
-<div> <span class="pinkcontent">They are sunshine,food,and medicine for the soul."</span>
-</div>
-<span class="btn"> Shop now </span>
-</div>
-</section>
-</div>
 
-<section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale= 1">
+  <title>Flowers</title>
+  <link rel="stylesheet" href="FLOWER.CSS">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body>
+
+  <header>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="toggleNavbar()">&#9776;</a>
+    <a href="#" class="logo">FLOWER<span>.</span></a>
+    <nav class="navbar" id="mainNavbar">
+      <a href="#Home" class="active">Home</a>
+      <a href="#Category">Category</a>
+      <a href="#About">About</a>
+      <a href="#Contact">Contact</a>
+      <a href="#Review">Review</a>
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+      </div>
+    </nav>
+  </header>
+
+  <div>
+    <section class="homeimg" id="home">
+      <div>
+        <div class="hpara">FRESH FLOWERS<span class="bold"> ORGANIC AND BEAUTIFUL</span></div>
+        <div class="para">Flowers always make people better, happier,and more helpful;</div>
+        <div> <span class="pinkcontent">They are sunshine,food,and medicine for the soul."</span>
+        </div>
+        <span class="btn"> Shop now </span>
+      </div>
+    </section>
+  </div>
+
+  <section>
 
     <div>
       <a href="#" class="category">OUR PRODUCTS</a>
     </div>
-</section>
+  </section>
 
+  <script>
+    function toggleNavbar() {
+      var navbar = document.getElementById("mainNavbar");
+      navbar.classList.toggle("show");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
+  </script>
 </body>
+
 </html>
 </head>
